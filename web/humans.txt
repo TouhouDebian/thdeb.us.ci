@@ -1,0 +1,7 @@
+/* TEAM */
+THDeb / TouhouDebian
+Original project: LinusTrevian/Board
+
+/* SITE */
+Standards: HTML5, CSS3, JavaScript
+Hosting: Cloudflare Pages

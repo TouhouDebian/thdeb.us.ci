@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>THDeb — About</title>
+  <meta name="description" content="About the original author LinusTrevian and the upstream project.">
+  <link rel="icon" href="./assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="./assets/img/background.png" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="./assets/css/styles.css?v=20261113-static">
+  <script src="./assets/js/config.js?v=20261113-static" defer></script>
+  <script src="./assets/js/app.js?v=20261113-static" defer></script>
+</head>
+<body data-current-lang="en" data-page="about" data-current-path="about.html">
+
+  <header class="topbar">
+    <nav class="topbar__left" aria-label="Main navigation">
+      <a class="topbar__button topbar__button--light" href="./index.html">Home</a>
+      <a class="topbar__button topbar__button--light" href="./links.html">Friendly Links</a>
+      <a class="topbar__button topbar__button--light" href="./about.html">About</a>
+      <a class="topbar__button topbar__button--green" href="https://github.com/TouhouDebian" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </nav>
+    <div class="topbar__right">
+      <div class="language-box" data-language-box>
+        <button class="language-box__button" type="button" aria-expanded="false" aria-controls="lang-menu" data-language-button>Language <span aria-hidden="true">⌄</span></button>
+        <div class="language-box__menu" id="lang-menu" data-language-menu>
+          <button class="language-box__item is-active" type="button" data-language-item data-target="about.html">English</button>
+          <button class="language-box__item" type="button" data-language-item data-target="about.zh-CN.html">简体中文</button>
+        </div>
+      </div>
+      <div class="theme-box" data-theme-box>
+        <button class="topbar__button topbar__button--light theme-box__button" type="button" aria-expanded="false" aria-controls="theme-menu" data-theme-button>Theme</button>
+        <div class="theme-box__menu" id="theme-menu">
+          <button class="theme-box__item" type="button" data-theme-option="system" aria-pressed="false">System</button>
+          <button class="theme-box__item" type="button" data-theme-option="light" aria-pressed="false">Light</button>
+          <button class="theme-box__item" type="button" data-theme-option="dark" aria-pressed="false">Dark</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero-banner hero-banner--article">
+      <img class="hero-banner__bg" src="./assets/img/background.png" alt="" width="2048" height="1154" fetchpriority="high">
+      <div class="hero-banner__veil" aria-hidden="true"></div>
+      <section class="article-section">
+      <div class="article">
+        <h1>About</h1>
+        <div class="info">
+          <span class="date">Upstream project and author</span>
+        </div>
+        <div class="content about-content">
+          <div class="about-copy">
+            <p>This site is using code originally written by the author <strong>LinusTrevian</strong>.</p>
+            <p>The upstream project (open-source) is available on GitHub: <a href="https://github.com/LinusTrevian/Board" target="_blank" rel="noopener noreferrer">https://github.com/LinusTrevian/Board</a>.</p>
+            <p>Original author social link (YouTube): <a href="https://www.youtube.com/@LinusTrevian" target="_blank" rel="noopener noreferrer">www.youtube.com/@LinusTrevian</a>.</p>
+            <p>Background image source: <a href="https://www.pixiv.net/artworks/61269686" target="_blank" rel="noopener noreferrer">https://www.pixiv.net/artworks/61269686</a>.</p>
+            <p>Thanks to the original author and open-source contributors. 🥰</p>
+          </div>
+          <figure class="about-mascot">
+            <img src="./assets/img/favicon.svg" alt="Zux" width="220" height="220">
+            <figcaption>Site mascot — Zux</figcaption>
+          </figure>
+        </div>
+      </div>
+      <p class="about-uptime">This site has been running steadily for <span data-site-uptime-duration>...</span>.</p>
+      </section>
+    </section>
+  </main>
+</body>
+</html>

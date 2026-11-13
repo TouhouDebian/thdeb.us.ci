@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>THDeb — 关于</title>
+  <meta name="description" content="关于原作者 LinusTrevian 以及上游开源项目。">
+  <link rel="icon" href="./assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="./assets/img/background.png" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="./assets/css/styles.css?v=20261113-static">
+  <script src="./assets/js/config.js?v=20261113-static" defer></script>
+  <script src="./assets/js/app.js?v=20261113-static" defer></script>
+</head>
+<body data-current-lang="zh-CN" data-page="about" data-current-path="about.zh-CN.html">
+
+  <header class="topbar">
+    <nav class="topbar__left" aria-label="主导航">
+      <a class="topbar__button topbar__button--light" href="./index.zh-CN.html">首页</a>
+      <a class="topbar__button topbar__button--light" href="./links.zh-CN.html">友链</a>
+      <a class="topbar__button topbar__button--light" href="./about.zh-CN.html">关于</a>
+      <a class="topbar__button topbar__button--green" href="https://github.com/TouhouDebian" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </nav>
+    <div class="topbar__right">
+      <div class="language-box" data-language-box>
+        <button class="language-box__button" type="button" aria-expanded="false" aria-controls="lang-menu" data-language-button>语言 <span aria-hidden="true">⌄</span></button>
+        <div class="language-box__menu" id="lang-menu" data-language-menu>
+          <button class="language-box__item" type="button" data-language-item data-target="about.html">English</button>
+          <button class="language-box__item is-active" type="button" data-language-item data-target="about.zh-CN.html">简体中文</button>
+        </div>
+      </div>
+      <div class="theme-box" data-theme-box>
+        <button class="topbar__button topbar__button--light theme-box__button" type="button" aria-expanded="false" aria-controls="theme-menu" data-theme-button>主题</button>
+        <div class="theme-box__menu" id="theme-menu">
+          <button class="theme-box__item" type="button" data-theme-option="system" aria-pressed="false">跟随系统</button>
+          <button class="theme-box__item" type="button" data-theme-option="light" aria-pressed="false">浅色</button>
+          <button class="theme-box__item" type="button" data-theme-option="dark" aria-pressed="false">深色</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero-banner hero-banner--article">
+      <img class="hero-banner__bg" src="./assets/img/background.png" alt="" width="2048" height="1154" fetchpriority="high">
+      <div class="hero-banner__veil" aria-hidden="true"></div>
+      <section class="article-section">
+      <div class="article">
+        <h1>关于</h1>
+        <div class="info">
+          <span class="date">上游项目与原作者</span>
+        </div>
+        <div class="content about-content">
+          <div class="about-copy">
+            <p>本站使用的部分代码来自原作者 <strong>LinusTrevian</strong> 的作品。</p>
+            <p>上游项目（开源）位于 GitHub：<a href="https://github.com/LinusTrevian/Board" target="_blank" rel="noopener noreferrer">https://github.com/LinusTrevian/Board</a></p>
+            <p>原作者社交链接（B站）：<a href="https://space.bilibili.com/3546843237582920" target="_blank" rel="noopener noreferrer">LinusTrevian 的 B 站空间</a></p>
+            <p>背景图出处：<a href="https://www.pixiv.net/artworks/61269686" target="_blank" rel="noopener noreferrer">https://www.pixiv.net/artworks/61269686</a></p>
+            <p>在此致谢原作者与开源贡献🥰</p>
+          </div>
+          <figure class="about-mascot">
+            <img src="./assets/img/favicon.svg" alt="Zux" width="220" height="220">
+            <figcaption>本站吉祥物——Zux</figcaption>
+          </figure>
+        </div>
+      </div>
+      <p class="about-uptime">此站已稳定运行 <span data-site-uptime-duration>...</span>。</p>
+      </section>
+    </section>
+  </main>
+</body>
+</html>

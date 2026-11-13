@@ -1,0 +1,16 @@
+/board / 301
+/board/ / 301
+/board/* / 301
+/board.html / 301
+/board.zh-CN /index.zh-CN.html 301
+/board.zh-CN/ /index.zh-CN.html 301
+/board.zh-CN/* /index.zh-CN.html 301
+/board.zh-CN.html /index.zh-CN.html 301
+/panel / 301
+/panel/ / 301
+/panel/* / 301
+/panel.html / 301
+/panel.zh-CN /index.zh-CN.html 301
+/panel.zh-CN/ /index.zh-CN.html 301
+/panel.zh-CN/* /index.zh-CN.html 301
+/panel.zh-CN.html /index.zh-CN.html 301
